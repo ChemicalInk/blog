@@ -3,7 +3,50 @@
         <title>Deen Games Blog</title>
         <link href="http://deengames.com/blog" />
         <id>urn:uuid:5106a41bf528d5a51828bdccf018a5ff</id>
-  	    <updated>2017-04-28T00:00:00Z</updated><entry>
+  	    <updated>2017-05-12T00:00:00Z</updated><entry>
+      		<title>Pattern Warrior, Week 5: Battle!</title>
+          <link href="http://deengames.com/blog/2017-05-12-pattern-warrior-battle" />
+      		<id>urn:uuid:44c2b1bde46f42394cbb8ef0e3ca3618</id>
+      		<updated>2017-05-12T00:00:00Z</updated>
+      		<summary>Pattern Warrior, Week 5: Battle!</summary>
+      		<content type="xhtml">
+      			&lt;p&gt;&lt;img src="http://i.imgur.com/ppchCyd.gif" alt="screenshot" /&gt;&lt;/p&gt;
+&lt;p&gt;This week, we made several major steps forward with Pattern Warrior, which you can see captured in the GIF above.&lt;/p&gt;
+&lt;p&gt;Let's run through them briefly.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Multiple Choice:&lt;/strong&gt; Instead of answering if you've seen a letter before, we now present players with four letters; they can pick any letter which they haven't seen that round. This provides more variety and fun, and makes the game more "game" like (as opposed to "quiz" like).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Health Potions:&lt;/strong&gt; We added health potions! You start with three, each which restores 60% (currently, 30) health. You can consume health potion at any time between rounds (prior to attacking or defending). &lt;/li&gt;&lt;li&gt;&lt;strong&gt;Special Attack:&lt;/strong&gt; On your turn, prior to attacking, you can choose to utilize a special attack (star icon). This allows you to attack an &lt;em&gt;unlimited&lt;/em&gt; number of times (until you make a wrong choice). This will provide the player with strategic skills to use on tough battles.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;We also made a couple of major "invisible" changes:&lt;/p&gt;
+&lt;p&gt;First, after much deliberation, and going in circles (should it be a game about selling sea shells? Fossils? Cooking?) we finally came full-circle and decided to theme the game as mini RPG/roguelike. You will trawl a dungeon of some number of floors, each loaded with monsters to battle, loot to find, and other things (like healing fountains).&lt;/p&gt;
+&lt;p&gt;Second, we decided to move beyond our initial design of mobile-only, and release this for desktop (Windows and Linux) and web.&lt;/p&gt;
+&lt;p&gt;Next week, given our current effort level and backlog of work, we can probably complete a lot of the roguelike elements. Hopefully, we can see an entire (albeit short) run through a floor or two of the dungeon.&lt;/p&gt;
+&lt;p&gt;If you're one of our &lt;a href="https://www.patreon.com/DeenGames"&gt;Patreon supporters&lt;/a&gt;, you can expect a playable version of the prototype very shortly.&lt;/p&gt;
+      		</content>
+      		<author>
+      			<name>ashes999</name>
+      			<email>ashes999@yahoo.com</email>
+      		</author>
+      	</entry>
+      	<entry>
+      		<title>Pattern Warrior, Week 4: N-Back</title>
+          <link href="http://deengames.com/blog/2017-05-05-pattern-warrior-nback" />
+      		<id>urn:uuid:82718ccbb9c385680392f13ad27d0e1f</id>
+      		<updated>2017-05-05T00:00:00Z</updated>
+      		<summary>Pattern Warrior, Week 4: N-Back</summary>
+      		<content type="xhtml">
+      			&lt;p&gt;This week, we moved forward with Pattern Warrior. The goal is to create a small, polished web game that imrpoves players' memory as a side-effect of playing. (We walk the fine line of being "game"-like and not "memory-exercise" like.)&lt;/p&gt;
+&lt;p&gt;This week, we finalized the two modes of gameplay we wanted to prototype: listing items from memory, and n-back.&lt;/p&gt;
+&lt;p&gt;You can see the initial idea, regurgitating items from memory, using chunking:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/aznuqs8.gif" alt="listing items screenshot" /&gt;&lt;/p&gt;
+&lt;p&gt;While somewhat interesting to play, this game mode suffered from a critical flaw: &lt;a href="https://bradylab.ucsd.edu/pdfs/BradyKonkleAlvarez2009.pdf"&gt;some research&lt;/a&gt; shows that, unless linked items are related to each other, chunking itself doesn't really benefit memory. In other words, teaching players to chunk items won't improve their memory.&lt;/p&gt;
+&lt;p&gt;Instead, we switched to a second prototype of a well-known memory-improvement technique called &lt;a href="https://en.wikipedia.org/wiki/N-back"&gt;n-back&lt;/a&gt;. In a nutshell, with n-back, you try to remember &lt;em&gt;N&lt;/em&gt; (or in our case, all) previously-seen items.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/7fiMJD9.gif" alt="n-back screenshot" /&gt;&lt;/p&gt;
+&lt;p&gt;While more visually boring (we used letters here because it's quicker to prototype), this game mode held up much better after balance-tweaking than the memorize-these-lists gameplay.  After play-testing, it looks like this will make up the final gameplay.&lt;/p&gt;
+&lt;p&gt;Next week, the goal is to finalize the theme of the game (something that matches the core game loop), and add extra "gameification" features. (For these prototypes, we took the model of a simple one-on-one RPG-like battle.)&lt;/p&gt;
+      		</content>
+      		<author>
+      			<name>ashes999</name>
+      			<email>ashes999@yahoo.com</email>
+      		</author>
+      	</entry>
+      	<entry>
       		<title>Find the Harf 2.0 Released!</title>
           <link href="http://deengames.com/blog/2017-04-28-find-the-harf-rereleased" />
       		<id>urn:uuid:c2ed6eeee44bfd1a0e16df487d91fc56</id>

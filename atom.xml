@@ -3,7 +3,28 @@
         <title>Deen Games Blog</title>
         <link href="http://deengames.com/blog" />
         <id>urn:uuid:5106a41bf528d5a51828bdccf018a5ff</id>
-  	    <updated>2017-05-12T00:00:00Z</updated><entry>
+  	    <updated>2017-07-07T00:00:00Z</updated><entry>
+      		<title>Talha's Migration, Week 1: Scrolling!</title>
+          <link href="http://deengames.com/blog/2017-0-707-talhas-migration-scrolling" />
+      		<id>urn:uuid:c23067dc4b2b77ba867f65717a92feda</id>
+      		<updated>2017-07-07T00:00:00Z</updated>
+      		<summary>Talha's Migration, Week 1: Scrolling!</summary>
+      		<content type="xhtml">
+      			&lt;p&gt;&lt;img src="http://i.imgur.com/zRW6Z6m.gif" alt="screenshot" /&gt;&lt;/p&gt;
+&lt;p&gt;This week, we made major strides on our new infinite runner project, tentatively titled "Talha's Migration." We themed the game around a loggerhead sea turtle's migration from Japan to the western coast of America.&lt;/p&gt;
+&lt;p&gt;The screenshot above shows two things we implemented:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An infinite scrolling ground&lt;/li&gt;&lt;li&gt;The player constantly moves forward.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;You can see that when we press the left arrow, the player slows, but still moves forward; when we press right, the player accelerates.&lt;/p&gt;
+&lt;p&gt;We spent a ton of time upgrading our entity-component system to handle automatic velocity and collision detection. Ultimately, the code proved to be unmanageable, and we ended up scrapping it. (We spent, literally, hours upon hours troubleshooting one collision-detection bug after another.)&lt;/p&gt;
+&lt;p&gt;In the end, we chose to employ a much simpler approach: use HaxeFlixel directly, without any intervening entity-component system. The resulting code is cleaner, clearer, and easier to write and maintain.&lt;/p&gt;
+&lt;p&gt;Going forward, we expect to implement (prototype) the major core features of our infinite runner ("infinite swimmer" is more like it) by next week.&lt;/p&gt;
+&lt;p&gt;If you're one of our &lt;a href="https://www.patreon.com/DeenGames"&gt;Patreon supporters&lt;/a&gt;, you can also expect a playable version of the prototype next week.&lt;/p&gt;
+      		</content>
+      		<author>
+      			<name>ashes999</name>
+      			<email>ashes999@yahoo.com</email>
+      		</author>
+      	</entry>
+      	<entry>
       		<title>Pattern Warrior, Week 5: Battle!</title>
           <link href="http://deengames.com/blog/2017-05-12-pattern-warrior-battle" />
       		<id>urn:uuid:44c2b1bde46f42394cbb8ef0e3ca3618</id>

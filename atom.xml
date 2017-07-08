@@ -3,9 +3,23 @@
         <title>Deen Games Blog</title>
         <link href="http://deengames.com/blog" />
         <id>urn:uuid:5106a41bf528d5a51828bdccf018a5ff</id>
-  	    <updated>2017-07-07T00:00:00Z</updated><entry>
+  	    <updated>2017-07-08T00:00:00Z</updated><entry>
+      		<title>Social Media Strategy</title>
+          <link href="http://deengames.com/blog/2017-07-08-social-media-strategy" />
+      		<id>urn:uuid:328fbc3631ea72e23550fab49f60a5c2</id>
+      		<updated>2017-07-08T00:00:00Z</updated>
+      		<summary>Social Media Strategy</summary>
+      		<content type="xhtml">
+      			&lt;p&gt;While we're still getting the hang of social media, we finally formulated a cohesive and clear strategy for our social media. Depending on your needs, you may be interested in how these different streams play out:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://twitter.com/deengames"&gt;Twitter&lt;/a&gt;: Daily updates on new features and in-progress work.&lt;/li&gt;&lt;li&gt;&lt;a href="http://patreon.com/deengames"&gt;Patreon&lt;/a&gt; and this Blog: Weekly aggregate updates on the current project, cancellations, and what's going on with the humans in Deen Games&lt;/li&gt;&lt;li&gt;&lt;a href="http://facebook.com/deengames"&gt;Facebook&lt;/a&gt;: Similar to Patreon. Also includes bi-weekly or monthly updates on projects and things that are generally ready for release (or close to it).&lt;/li&gt;&lt;/ul&gt;
+      		</content>
+      		<author>
+      			<name>ashes999</name>
+      			<email>ashes999@yahoo.com</email>
+      		</author>
+      	</entry>
+      	<entry>
       		<title>Talha's Migration, Week 1: Scrolling!</title>
-          <link href="http://deengames.com/blog/2017-0-707-talhas-migration-scrolling" />
+          <link href="http://deengames.com/blog/2017-07-07-talhas-migration-scrolling" />
       		<id>urn:uuid:c23067dc4b2b77ba867f65717a92feda</id>
       		<updated>2017-07-07T00:00:00Z</updated>
       		<summary>Talha's Migration, Week 1: Scrolling!</summary>

@@ -3,7 +3,25 @@
         <title>Deen Games Blog</title>
         <link href="http://deengames.com/blog" />
         <id>urn:uuid:5106a41bf528d5a51828bdccf018a5ff</id>
-  	    <updated>2017-07-11T00:00:00Z</updated><entry>
+  	    <updated>2017-07-14T00:00:00Z</updated><entry>
+      		<title>Talha's Migration, Week 2: Core Gameplay</title>
+          <link href="http://deengames.com/blog/2017-07-14-talhas-migration-mvp" />
+      		<id>urn:uuid:289736cba5f1a687c347f8251855d486</id>
+      		<updated>2017-07-14T00:00:00Z</updated>
+      		<summary>Talha's Migration, Week 2: Core Gameplay</summary>
+      		<content type="xhtml">
+      			&lt;p&gt;&lt;img src="http://i.imgur.com/iuofHjF.gif" alt="screenshot" /&gt;&lt;/p&gt;
+&lt;p&gt;This week, we completed prototyping the major functionality for Talha's Migration. This included the core elements of the MVP version of the game:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Speeding up after eating jellyfish (blue) and starfish (purple)&lt;/li&gt;&lt;li&gt;Avoiding swimming crabs (orange) and eels (yellow)&lt;/li&gt;&lt;li&gt;Death (three hits to die) and restarting&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;The game is starting to "feel" like a  real infinite runner! At this point, we need to refine the prototype and figure out what we need to add (or remove) to make it even more fun.  This includes things like:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;More predators and prey&lt;/li&gt;&lt;li&gt;In-game currency&lt;/li&gt;&lt;li&gt;Permanent upgrades&lt;/li&gt;&lt;li&gt;Implementing a "win" condition"&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;We'll visit these points over the next week, and playtest to see how the game shapes up.&lt;/p&gt;
+&lt;p&gt;If you're one of our &lt;a href="https://www.patreon.com/DeenGames"&gt;Patreon supporters&lt;/a&gt;, you should have already received a link to try the prototype in your browser.&lt;/p&gt;
+      		</content>
+      		<author>
+      			<name>ashes999</name>
+      			<email>ashes999@yahoo.com</email>
+      		</author>
+      	</entry>
+      	<entry>
       		<title>Agile Game Development: Demos</title>
           <link href="http://deengames.com/blog/2017-07-11-agile-game-dev-demos" />
       		<id>urn:uuid:7689af8d8a5aebdbadc8f4e789407e42</id>

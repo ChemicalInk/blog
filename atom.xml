@@ -3,7 +3,28 @@
         <title>Deen Games Blog</title>
         <link href="http://deengames.com/blog" />
         <id>urn:uuid:5106a41bf528d5a51828bdccf018a5ff</id>
-  	    <updated>2017-07-14T00:00:00Z</updated><entry>
+  	    <updated>2017-07-21T00:00:00Z</updated><entry>
+      		<title>Talha's Migration, Week 3: Upgrades!</title>
+          <link href="http://deengames.com/blog/2017-07-12-talhas-migration-upgrades" />
+      		<id>urn:uuid:db4762a22dab2f5c4bfc72f2c754fe91</id>
+      		<updated>2017-07-21T00:00:00Z</updated>
+      		<summary>Talha's Migration, Week 3: Upgrades!</summary>
+      		<content type="xhtml">
+      			&lt;p&gt;&lt;img src="http://i.imgur.com/JuNPgsR.gif" alt="screenshot" /&gt;&lt;/p&gt;
+&lt;p&gt;This week, we settled the question of "should we create a separate currency, or reuse food as the currency, for in-game updates?" We decided to re-use food; relevant Reddit game-design discussion is &lt;a href="https://www.reddit.com/r/gamedesign/comments/6nhsxo/infinite_runner_additional_currency_or_food/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We also made some changes to how speed works. The full list of changes this week includes:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Decision not to have a "win" state, but to continue perpetually&lt;/li&gt;&lt;li&gt;Capping velocity so you can't go too fast&lt;/li&gt;&lt;li&gt;You speed up relative to how far you travel, not how much food you collect&lt;/li&gt;&lt;li&gt;Food collected persists between games and sessions&lt;/li&gt;&lt;li&gt;Performance optimizations (object pools for reusing objects)&lt;/li&gt;&lt;li&gt;Shop button takes you to the shop&lt;/li&gt;&lt;li&gt;You can buy starting-health upgrade at the shop, which persists across games and sessions&lt;/li&gt;&lt;li&gt;You can buy up to six starting health in total&lt;/li&gt;&lt;li&gt;Internationalization: app is now localizable&lt;/li&gt;&lt;li&gt;Localization fail for Urdu and Arabic&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;While we succeeded in internationalizing our app, we only have the English localization. &lt;/p&gt;
+&lt;p&gt;The two others that we can reasonably achieve (Urdu and Arabic) both use right-to-left languages. Unfortunately, HaxeFlixel doesn't yet support right-to-left-languages; the letters are disjointed (instead of connected) and left-to-right:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/gtWMQDm.png" alt="screenshot of L10N" /&gt;&lt;/p&gt;
+&lt;p&gt;While the results are disappointing, we at least made our app localizable. In the future, may look to the game development community to help add some localizations prior to launch.&lt;/p&gt;
+&lt;p&gt;With that, the plan for next week is to break out more features: what else do we need before we can ship the MVP of our game? Once we complete those, we can look into adding polish (better art, tutorial, etc.) and shipping the first version of our game in the next few weeks.&lt;/p&gt;
+      		</content>
+      		<author>
+      			<name>ashes999</name>
+      			<email>ashes999@yahoo.com</email>
+      		</author>
+      	</entry>
+      	<entry>
       		<title>Talha's Migration, Week 2: Core Gameplay</title>
           <link href="http://deengames.com/blog/2017-07-14-talhas-migration-mvp" />
       		<id>urn:uuid:289736cba5f1a687c347f8251855d486</id>

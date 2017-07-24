@@ -1,4 +1,4 @@
-<!-- This file is generated. Any changes will be overridden. -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,17 +10,24 @@
     <meta name="author" content="">
     <link rel="icon" href="content/favicon.ico">
 
-    <title>Pattern Warrior, Week 4: N-Back | Deen Games Blog</title>
+    <title>Pattern Warrior, Week 4: N-Back | Blog Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="content/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="content/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="content/css/custom.css" rel="stylesheet">
+    <link href="content/css/blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="content/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <link type="application/atom+xml" title="Deen Games Blog" href="http://deengames.com/blog/atom.xml" rel="alternate" />
@@ -44,39 +51,37 @@ if (window.location.href.indexOf('file://') == -1) {
 </script>
 
 
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="blog-masthead">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://deengames.com"><img src="content/images/dg-logo.png" /></a>
-          <a class="navbar-brand" href="https://twitter.com/ashes999"><img src="content/images/twitter.svg" width="32" height="32" /></a>          
-          <a class="navbar-brand" href="https://www.patreon.com/DeenGames"><img src="content/images/patreon.svg" width="32" height="32" /></a>
-          <a class="navbar-brand" href="https://facebook.com/deengames"><img src="content/images/facebook.svg" width="32" height="32" /></a>          
-          <a style="float: right;" class="navbar-brand" href="http://deengames.com/blog/atom.xml"><img src="content/images/rss-icon.svg" width="32" height="32" /></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a class="" href="about.html">About</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-          </ul>
-        </div><!--/.nav-collapse -->
+        <nav class="blog-nav">
+           <a class="blog-nav-item" href="http://deengames.com"><img src="content/images/dg-logo.png" /></a>
+          <a class="blog-nav-item" href="https://twitter.com/ashes999"><img src="content/images/twitter.svg" width="32" height="32" /></a>          
+          <a class="blog-nav-item" href="https://www.patreon.com/DeenGames"><img src="content/images/patreon.svg" width="32" height="32" /></a>
+          <a class="blog-nav-item" href="https://facebook.com/deengames"><img src="content/images/facebook.svg" width="32" height="32" /></a>          
+          <a style="float: right;" class="blog-nav-item" href="http://deengames.com/blog/atom.xml"><img src="content/images/rss-icon.svg" width="32" height="32" /></a>
+          <a class="blog-nav-item" href="http://deengames.com/blog">Home</a>
+          <a class="blog-nav-item" href="about.html">About</a>
+        </nav>
       </div>
-    </nav>
+    </div>
 
-    <div class="container" id="main">
+    <div class="container">
 
-      <h1>Pattern Warrior, Week 4: N-Back</h1>
-      <p class="">Published: 2017-05-05</p>
+      <div class="blog-header">
+        <h1 class="blog-title">Deen Games Blog</h1>
+        <p class="lead blog-description">The official blog of <a href="http://deengames.com">Deen Games</a>.</p>
+      </div>
 
-      <p><strong>Tagged with:</strong> <a href="tag-devlog.html">devlog</a></p>
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Pattern Warrior, Week 4: N-Back</h2>
+            <!--p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p-->
+
+            <p><strong>Tagged with:</strong> <a href="tag-devlog.html">devlog</a></p>
+<p>Posted on 2017-05-05</p>
 <p>This week, we moved forward with Pattern Warrior. The goal is to create a small, polished web game that imrpoves players' memory as a side-effect of playing. (We walk the fine line of being "game"-like and not "memory-exercise" like.)</p>
 <p>This week, we finalized the two modes of gameplay we wanted to prototype: listing items from memory, and n-back.</p>
 <p>You can see the initial idea, regurgitating items from memory, using chunking:</p>
@@ -87,8 +92,7 @@ if (window.location.href.indexOf('file://') == -1) {
 <p>While more visually boring (we used letters here because it's quicker to prototype), this game mode held up much better after balance-tweaking than the memorize-these-lists gameplay.  After play-testing, it looks like this will make up the final gameplay.</p>
 <p>Next week, the goal is to finalize the theme of the game (something that matches the core game loop), and add extra "gameification" features. (For these prototypes, we took the model of a simple one-on-one RPG-like battle.)</p>
 
-
-      <div id="disqus_thread"></div>
+            <div id="disqus_thread"></div>
 <script type="text/javascript">
 
 var disqus_config = function () {
@@ -107,15 +111,60 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
+          </div><!-- /.blog-post -->
 
-    </div> <!-- /container -->
+          <!--nav>
+            <ul class="pager">
+              <li><a href="#">Previous</a></li>
+              <li><a href="#">Next</a></li>
+            </ul>
+          </nav-->
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>We blog weekly updates on actively-developed projects, as well as game-design notes.</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Tags</h4>
+            <ul><li><a href="tag-android.html">android</a></li>
+<li><a href="tag-apps.html">apps</a></li>
+<li><a href="tag-devlog.html">devlog</a></li>
+<li><a href="tag-marketing.html">marketing</a></li>
+<li><a href="tag-project-management.html">project-management</a></li>
+<li><a href="tag-releases.html">releases</a></li>
+</ul>
+          </div>
+          <div class="sidebar-module">
+            <!--<h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>-->
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <!--<p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="content/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="content/js/ie10-viewport-bug-workaround.js"></script>
 
@@ -130,5 +179,6 @@ s.setAttribute('data-timestamp', +new Date());
       ga('send', 'pageview');
 
     </script>
+
   </body>
 </html>

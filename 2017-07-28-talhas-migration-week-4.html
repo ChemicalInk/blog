@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="content/favicon.ico">
 
-    <title>Talha's Migration, Week 3: Upgrades! | Blog Template for Bootstrap</title>
+    <title>Talha's Migration, Week 4 | Blog Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="content/css/bootstrap.min.css" rel="stylesheet">
@@ -32,9 +32,9 @@
     <![endif]-->
   <link type="application/atom+xml" title="Deen Games Blog" href="http://deengames.com/blog/atom.xml" rel="alternate" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Talha's Migration, Week 3: Upgrades!" />
-<meta property="og:description" content="This week, we settled the question of "should we create a separate currency, or reuse food as the currency, for in-game updates?" We decided to re-use food; relevant Reddit game-design discussion is [here](https://www.reddit.com/r/gamedesign/comments/6nhsxo/infinite_runner_additional_currency_or_food/)." />
-<meta property="og:image" content="http://i.imgur.com/JuNPgsR.gif" />
+<meta property="og:title" content="Talha's Migration, Week 4" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="http://i.imgur.com/iCjtnYS.gif" />
 </head>
 
   <body><script type="text/javascript">
@@ -77,26 +77,22 @@ if (window.location.href.indexOf('file://') == -1) {
         <div class="col-sm-8 blog-main">
 
           <div class="blog-post">
-            <h2 class="blog-post-title">Talha's Migration, Week 3: Upgrades!</h2>
+            <h2 class="blog-post-title">Talha's Migration, Week 4</h2>
             <!--p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p-->
 
             <p><strong>Tagged with:</strong> <a href="tag-devlog.html">devlog</a></p>
-<p>Posted on 2017-07-21</p>
-<p><img src="http://i.imgur.com/JuNPgsR.gif" alt="screenshot" /></p>
-<p>This week, we settled the question of "should we create a separate currency, or reuse food as the currency, for in-game updates?" We decided to re-use food; relevant Reddit game-design discussion is <a href="https://www.reddit.com/r/gamedesign/comments/6nhsxo/infinite_runner_additional_currency_or_food/">here</a>.</p>
-<p>We also made some changes to how speed works. The full list of changes this week includes:</p><ul><li>Decision not to have a "win" state, but to continue perpetually</li><li>Capping velocity so you can't go too fast</li><li>You speed up relative to how far you travel, not how much food you collect</li><li>Food collected persists between games and sessions</li><li>Performance optimizations (object pools for reusing objects)</li><li>Shop button takes you to the shop</li><li>You can buy starting-health upgrade at the shop, which persists across games and sessions</li><li>You can buy up to six starting health in total</li><li>Internationalization: app is now localizable</li><li>Localization fail for Urdu and Arabic</li></ul>
-<p>While we succeeded in internationalizing our app, we only have the English localization. </p>
-<p>The two others that we can reasonably achieve (Urdu and Arabic) both use right-to-left languages. Unfortunately, HaxeFlixel doesn't yet support right-to-left-languages; the letters are disjointed (instead of connected) and left-to-right:</p>
-<p><img src="http://i.imgur.com/gtWMQDm.png" alt="screenshot of L10N" /></p>
-<p>While the results are disappointing, we at least made our app localizable. In the future, may look to the game development community to help add some localizations prior to launch.</p>
-<p>With that, the plan for next week is to break out more features: what else do we need before we can ship the MVP of our game? Once we complete those, we can look into adding polish (better art, tutorial, etc.) and shipping the first version of our game in the next few weeks.</p>
+<p>Posted on 2017-07-28</p>
+<p><img src="http://i.imgur.com/iCjtnYS.gif" alt="screenshot" /></p>
+<p>This week, we decided on the major features and functionality left until the game MVP is done.</p>
+<p>We also worked on a bevvy of small changes. These include:</p><ul><li>Buoyancy: the turtle floats upward automatically</li><li>Programmer art! Things look (sort of) like what they represent. It's not hideous, right? Right??</li><li>Discrete stages, and progressing to the next stage at discrete food points (eg. 20, 40)</li><li>Different backgrounds on each stage</li><li>Internationalization! This ships with a (horrible) Arabic translation (c/o Google Translate).</li><li>Created the first few concept art sketches of the main character</li></ul>
+<p>For next week, we plan to implement most of the feature work left, and to figure out how to make our game innovative. Hopefully, we will be able to prototype something fun, and then focus on finishing the MVP and shipping the first playable version.</p>
 
             <div id="disqus_thread"></div>
 <script type="text/javascript">
 
 var disqus_config = function () {
-  this.page.url = "http://deengames.com/blog/2017-07-21-talhas-migration-upgrades"; // Absolute page URL
-  this.page.identifier = "ebee115eb0f9d1cb93056fc3ef4afaa0e37e8283"; // Any unique, stable string identifier
+  this.page.url = "http://deengames.com/blog/2017-07-28-talhas-migration-week-4"; // Absolute page URL
+  this.page.identifier = "65acb6af26f248547ebe26016fc77044a26034ed"; // Any unique, stable string identifier
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE

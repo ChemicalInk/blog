@@ -3,7 +3,26 @@
         <title>Deen Games Blog</title>
         <link href="http://deengames.com/blog" />
         <id>urn:uuid:5106a41bf528d5a51828bdccf018a5ff</id>
-  	    <updated>2017-07-28T00:00:00Z</updated><entry>
+  	    <updated>2017-08-04T00:00:00Z</updated><entry>
+      		<title>Talha's Migration, Week 5</title>
+          <link href="http://deengames.com/blog/2017-08-04-talhas-migration-week-5" />
+      		<id>urn:uuid:372a4d920d5e24ba4ba254cd3f7a19e7</id>
+      		<updated>2017-08-04T00:00:00Z</updated>
+      		<summary>Talha's Migration, Week 5</summary>
+      		<content type="xhtml">
+      			&lt;a href="http://i.imgur.com/SfuJvW7.gif"&gt;&lt;img src="http://i.imgur.com/SfuJvW7.gif" width="672" height="378" /&gt;&lt;/a&gt;
+&lt;p&gt;This week, we implemented the final feature work (seals and sharks). We left out one item (squids) due to a lack of time. You can see both seals and squids in the GIF above.&lt;/p&gt;
+&lt;p&gt;As well, our artist finished the main character sprite, and it gives a game a very different look.&lt;/p&gt;
+&lt;p&gt;We also nailed down the final resolution at 960x540. You can click the image above to see the full size.&lt;/p&gt;
+&lt;p&gt;Next week, we plan to add squids, and brainstorm (and add) more upgrades. Then, we can start polishing this game and release the first (minimal) version to get some user feedback.&lt;/p&gt;
+&lt;p&gt;If you're interested, please &lt;a href="https://twitter.com/ashes999"&gt;follow me on Twitter&lt;/a&gt;. It's also a good way to stay up-to-date on development and game-related announcements.&lt;/p&gt;
+      		</content>
+      		<author>
+      			<name>ashes999</name>
+      			<email>ashes999@yahoo.com</email>
+      		</author>
+      	</entry>
+      	<entry>
       		<title>Talha's Migration, Week 4</title>
           <link href="http://deengames.com/blog/2017-07-28-talhas-migration-week-4" />
       		<id>urn:uuid:38567cb768877019a8740faac9712729</id>

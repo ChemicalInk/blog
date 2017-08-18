@@ -3,7 +3,23 @@
         <title>Deen Games Blog</title>
         <link href="http://deengames.com/blog" />
         <id>urn:uuid:5106a41bf528d5a51828bdccf018a5ff</id>
-  	    <updated>2017-08-04T00:00:00Z</updated><entry>
+  	    <updated>2017-08-18T00:00:00Z</updated><entry>
+      		<title>Talha's Migration, Week 6-7</title>
+          <link href="http://deengames.com/blog/2017-08-04-talhas-migration-week-7" />
+      		<id>urn:uuid:173e85e89b31cf1c18eefe0dd8ec6fb1</id>
+      		<updated>2017-08-18T00:00:00Z</updated>
+      		<summary>Talha's Migration, Week 6-7</summary>
+      		<content type="xhtml">
+      			&lt;a href="http://i.imgur.com/Xw5LHIs.gif"&gt;&lt;img src="http://i.imgur.com/Xw5LHIs.gif" width="672" height="378" /&gt;&lt;/a&gt;
+&lt;p&gt;The last couple of weeks mostly entailed playtesting and game-balancing tweaks. As a result, we made a few visible changes:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Squid (blue rectangle) now move erratically and require more effort to capture.&lt;/li&gt;&lt;li&gt;There's a new "Sense of Smell"  upgrade that materializes as a white arrow, and shows you where the next creature will appear. In the GIF above, it predicts a shark, then a squid.&lt;/li&gt;&lt;li&gt;Krill now appear in abundance, but net you only one food per catch.&lt;/li&gt;&lt;li&gt;Shrank swimming crabs slightly.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;You can see these changes in the GIF above. We plan to continue playtesting and tweaking in the next weeks.&lt;/p&gt;
+      		</content>
+      		<author>
+      			<name>ashes999</name>
+      			<email>ashes999@yahoo.com</email>
+      		</author>
+      	</entry>
+      	<entry>
       		<title>Talha's Migration, Week 5</title>
           <link href="http://deengames.com/blog/2017-08-04-talhas-migration-week-5" />
       		<id>urn:uuid:372a4d920d5e24ba4ba254cd3f7a19e7</id>
@@ -176,25 +192,6 @@ In agile software, one of the useful processes includes showing the demo of the 
 &lt;p&gt;The original version suffered from many audio problems, with a large number of users seeing audio crash entirely during play. All these problems should be resolved.&lt;/p&gt;
 &lt;p&gt;In addition, we removed the the "customize the letters shown" functionality. This was a source of endless bugs (and a &lt;em&gt;lot&lt;/em&gt; of extra work), and based on our numbers, less than 1% of our users actually use it. &lt;/p&gt;
 &lt;p&gt;We hope you like this new iteration!  As usual, drop us your comments here (or on Facebook) and let us know what you think.&lt;/p&gt;
-      		</content>
-      		<author>
-      			<name>ashes999</name>
-      			<email>ashes999@yahoo.com</email>
-      		</author>
-      	</entry>
-      	<entry>
-      		<title>Control Your Tongue 1.0 Released!</title>
-          <link href="http://deengames.com/blog/2017-04-21-control-your-tongue-released" />
-      		<id>urn:uuid:5549c2f304578c81185fbee9fada2fb0</id>
-      		<updated>2017-04-21T00:00:00Z</updated>
-      		<summary>Control Your Tongue 1.0 Released!</summary>
-      		<content type="xhtml">
-      			&lt;p&gt;&lt;img src="http://i.imgur.com/EQRchUv.png" alt="screenshot" /&gt;&lt;/p&gt;
-&lt;p&gt;We're excited to announce our very first Android app, Control Your Tongue! This app helps kids aged 5-9 practice makhraj (pronounciation) of the Arabic letters, while reciting words used throughout the Qur'an.&lt;/p&gt;
-&lt;p&gt;You can download it &lt;a href="https://play.google.com/store/apps/details?id=com.deengames.controlyourtongue"&gt;on Google Play&lt;/a&gt; or read about it &lt;a href="http://deengames.com/control-your-tongue.html"&gt;on our website&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can compare your voice to a pre-recorded version to see how close you can get to the intended recitation; and you can choose whichever letters and makharij to go through, at your own pace.&lt;/p&gt;
-&lt;p&gt;We created this game over a month, as a collaborative effort with a new developer. This early version ships with only one makharij (jawf / oral-cavity). InshaAllah we plan to add more over the coming months.&lt;/p&gt;
-&lt;p&gt;We hope you enjoy it and benefit from it!  As usual, drop us your comments here (or on Facebook) and let us know what you think.&lt;/p&gt;
       		</content>
       		<author>
       			<name>ashes999</name>
